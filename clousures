@@ -39,6 +39,24 @@ const miContador = function() {
   function valor () {
   return _contador;
   
+  }
+  
+  return {
+  
+  incrementar,
+  decrementar,
+  valor
+  }
+})();
+
+miContador.valor()
+miContador.Incrementar()
+miContador.valor()
+miContador.decrementar()
+miContador.incrementar()
+miContador.valor()
+miContador.valor()  
+miContador.valor()  
 
 
 
